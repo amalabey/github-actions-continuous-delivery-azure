@@ -1,0 +1,7 @@
+name: Production deployment
+env:
+  PACKAGES_TOKEN: ${{secrets.PACKAGES_TOKEN}}
+  AZURE_RESOURCE_GROUP: aa-cd-with-githubactions-rg
+  AZURE_APP_PLAN: actions-ttt-deployment-asp
+  AZURE_LOCATION: '"Australia Southeast"'
+  AZURE_WEBAPP_NAME: amalabey-ttt-app
