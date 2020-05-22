@@ -3,7 +3,7 @@ name: Staging deployment
 env:
   DOCKER_IMAGE_NAME: amalabey-azure-ttt
   IMAGE_REGISTRY_URL: docker.pkg.github.com
-  AZURE_WEBAPP_NAME: github-actions-pd-as
+  AZURE_WEBAPP_NAME: amalabey-ttt-app
 
 on: 
   pull_request:
